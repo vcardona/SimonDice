@@ -15,7 +15,7 @@ public class LightUp_2_Final : MonoBehaviour
 	public Material lightUpMaterial;
 
 	// The gameobject that has the GameLogic.cs script attached.
-	public GameLogic gameLogic;
+	public GameLogic_1 gameLogic;
 
 
 	void Start()

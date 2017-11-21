@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 /* Let's Get Ready to Move
  * This script represents what your GameLogic.cs script should look like starting from the Let's Get Ready to Move
  * lesson.
@@ -34,6 +35,7 @@ public class GameLogic_2 : MonoBehaviour
 	// Begin the puzzle sequence.
 	public void StartPuzzle()
 	{
+		
 		ToggleUI();
 		iTween.MoveTo(player, 
 			iTween.Hash(
